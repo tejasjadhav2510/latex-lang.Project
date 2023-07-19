@@ -1,0 +1,136 @@
+\documentclass{article}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{headlinecolor}{RGB}{0, 0, 255} % Blue color
+
+\titleformat{\section}
+{\normalfont\Large\bfseries\color{headlinecolor}}
+{}
+{0em}
+{}
+\definecolor{authorcolor}{RGB}{255, 0, 0} % Red color
+
+\title{My Document}
+\author{\textcolor{authorcolor}{Miss.Ghaitidak Poonam Changdeo}}
+\date{\today}
+
+\title{ 
+Swami Ramanand Teerth Marathwada University Nanded,\\
+Maharashtra,India. \\                                              A Study Of Assignment Problem And It’s Application\\
+Research proposal submitted in partial fulfillment of registration to Ph.D. Program\\
+   DOCTOR OF PHILOSOPHY\\                                             In The Subject\\
+Mathematics\\
+Under Faculty of
+Science and Technology\\                                  
+  Submitted by}
+\begin{document}
+
+\maketitle
+
+\author{Miss. Ghaitidak Poonam Changdeo,
+M.Sc(Mathematics)
+Email:pcghaitidak@gmail.com}
+\date{July 2023}
+
+
+\begin{document} <return>
+\maketitle
+{Under the guidance of\\
+Dr.Muley Yogesh Manohar
+Assistant Professor and Head,\\
+Department of Mathematics,\\
+Rasika Mahavidyalaya,Deoni\\
+Tal: Udgir  Dist: Latur 
+Pin: 413519,(MH),India\\
+Email: yogesh.m.muley@gmail.com}
+
+
+
+\section*{Study of Assignment Problem and it’s Application.}
+
+\section *{Introduction }
+Introuction to proposed research topic:-\\    
+
+   Assignment problem is degenerated form of transportation problem. Assignment problem,transportation problem are type of linear programming problem. Problems related to assignment have many applications such as transportation,healthcare,education,seating arrangement,business,sports etc. Assignment problem deals with allocation of varies resources to varies activityes on one to one correspondence. Assignment problem have two types\\
+\begin{enumerate}
+    \item Balanced Assignment Problem :- n objects are related to n objects.
+    \item Unbalanced Assignment Problem:- n objects are related to m objects.
+\end{enumerate}
+ \\   
+
+
+\section*{Definition and Mathematical Formulation of  general assignment problem :}\\
+
+The general aim of Assignment problem is to optimize the allocation of  resources to demand points where both resources and demand point share equal number. Therefore assignment problem can be presented as :\\
+
+	Optimize\\   
+$\sum_{i=1}^{n} $   % Summation: Sum of x_i from i=1 to n
+$\sum_{j=1}^{n} $   % Summation: Sum of x_j from j=1 to n
+c_{ij} x_{ij} <re
+ ……..(1)\\
+ 
+	Subject to
+ 
+$\sum_{i=1}^{n} x_{ij}$   % Summation: Sum of x_i from i=1 to n
+    = 1    		                      i=1,2,3…,n ……(2)\\
+    
+$\sum_{i=1}^{n} x_{ij}$   % Summation: Sum of x_i from i=1 to n    
+			 =1                           j=1,2,3…n ……(3)\\
+    
+x_{ij}	
+	 = 0 or 1,   i=1,2,…n          j=1,2…n     ……..…(4)\\
+
+  
+  which are  is the cost or efectiveness of assignment resource to   demand,  is 0 or 1 as presented in equation (4) and n is number of resources or demands. The constraints of problem are defined as equation (2) and (3). Equation (2) indicates that each resource i  needs to be assigned to one demand j, while(3) show that each demand  j needs to be assigned to only one resource i.[2]
+
+\section*{Solution method :-}
+	The assignment problem can be solved by the following four methods :
+\begin{enumerate}
+    \item Enumeration Method
+    \item Simplex Method
+    \item Trasportation Method
+    \item Hungarian Method
+\end{enumerate} \\
+
+Now a days mathematicians found new techniques to solve assignment problem which are as follows :\\  
+
+\section*{*Heuristics algorithm} \\		
+\begin{enumerate}
+                                 \item Constructed method
+                                 \item Limited enumeration method
+                                 \item Improvement method
+                                 \item Simulated annealing technique
+                                 \item Genetic algorithms
+\end{enumerate}\\
+
+\section*{*Metaheuristic algorithm :-}
+\begin{enumerate}
+                                 \item Local search algorithm
+                                 \item Population search algorithm
+\end{enumerate}\\
+
+\section*{*Hybrid Method }
+
+\section*{*Exact Method }
+\begin{enumerate}
+    \item Dynamic Programming
+    \item Integer Programming
+    \item Linear Programming
+    
+\end{enumerate}                                                                                                                                                                                       
+ \section*{*Branch and Bound Method }
+
+\paragraph{Heuristic and metaheuristic algorithms are used when problem becomes too large for exact method. Exact method is complicated than heuristic method. Exact method give solution of large scale problem instances in manageable times.}                                                       \paragraph{                          Genetic algorithm is used more than other method to solve assignment problem.	Currently many mathematicians evaluate assignment problem by using varius techniques such as Fuzzy logic, Machine learning, genetic algorithm, Matlab programming. Currently Mathematicians also works on  quadratic assignment problem.}
+\section*{1) Quadratic Assignment Problem (QAP) : }
+Quadratic assignment problem was introduced  by  Koopmans and Beckmann in 1957. QAP is one of the fundamental combinatorial optimization problem. QAP has many applications in real life such as scheduling, production, computer manufacture, chemistry, facility location, communication and other field. 
+\section*{2) Assignment problem by genetic algorithm:}  
+Genetic algorithms are a class of algorithms designed to explore a large search space and finite optimal solutions by mimicking evolution and natural selection. In a genetic algorithm three operators are apply on population of string (called chromosomes or the genotype of the genome) to approach better solution.This three operators are 1) Cross-over   2)  Mutation   3) Selection
+\section*{3)Fuzzy Assignment Problem (FAP): }
+Fuzzy logic is a form of many-valued logic in which the truth values of variables may be any real number between o and 1. It is employed to handle the concept of partial truth. Hungarian method is used to solve FAP by using ranking function for fuzzy costs.
+\section*{4) Assignment problem by using machine learning: }
+Over the last few year use of machine learning in various field is popular and also necessary.  Machine learning(ML) is the study of computer algorithms that can improve automatically through experience and by the use of data. The study of  mathematical optimization delivers methods, theory and application domains to the ield o machine learning.\\
+
+
+
+2) Review of literature :
+\end{document}
