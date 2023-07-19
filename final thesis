@@ -1,0 +1,75 @@
+Study of Assignment Problem and it’s Applica-
+tion.
+
+Introduction
+
+Introuction to proposed research topic:-
+Assignment problem is degenerated form of transportation problem. Assign-
+ment problem,transportation problem are type of linear programming problem.
+Problems related to assignment have many applications such as transporta-
+tion,healthcare,education,seating arrangement,business,sports etc. Assignment
+problem deals with allocation of varies resources to varies activityes on one to
+one correspondence. Assignment problem have two types
+
+1. Balanced Assignment Problem :- n objects are related to n objects.
+2. Unbalanced Assignment Problem:- n objects are related to m objects.
+
+Definition and Mathematical Formulation of gen-
+eral assignment problem :
+
+The general aim of Assignment problem is to optimize the allocation of resources
+to demand points where both resources and demand point share equal number.
+Therefore assignment problem can be presented as :
+
+Optimize∑n
+
+i=1
+∑n
+j=1 cij xij < re. . . . . . ..(1)
+Subject to∑n
+i=1 xij = 1 i=1,2,3. . . ,n . . . . . . (2)
+∑n
+i=1 xij =1 j=1,2,3. . . n . . . . . . (3)
+
+xij = 0or1, i = 1, 2, . . . nj = 1, 2. . . n. . . . . . ... . . (4)
+
+which are is the cost or efectiveness of assignment resource to demand, is
+0 or 1 as presented in equation (4) and n is number of resources or demands.
+The constraints of problem are defined as equation (2) and (3). Equation (2)
+indicates that each resource i needs to be assigned to one demand j, while(3)
+show that each demand j needs to be assigned to only one resource i.[2]
+Solution method :-
+
+The assignment problem can be solved by the following four methods :
+
+1. Enumeration Method
+2. Simplex Method
+3. Trasportation Method
+4. Hungarian Method
+
+Now a days mathematicians found new techniques to solve assignment problem
+which are as follows :
+
+*Heuristics algorithm
+1. Constructed method
+2. Limited enumeration method
+3. Improvement method
+4. Simulated annealing technique
+5. Genetic algorithms
+
+*Metaheuristic algorithm :-
+1. Local search algorithm
+2. Population search algorithm
+
+*Hybrid Method
+
+*Exact Method
+1. Dynamic Programming
+2. Integer Programming
+3. Linear Programming
+
+*Branch and Bound Method
+Heuristic and metaheuristic algorithms are used when problem be-
+comes too large for exact method. Exact method is complicated than
+heuristic method. Exact method give solution of large scale problem
+instances in manageable times
